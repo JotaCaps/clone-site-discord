@@ -1,0 +1,280 @@
+
+header {
+    background-image: url(../imgs/Header\ Background.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    padding: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-family: "Luckiest Guy", cursive; 
+    font-size: 4rem;
+
+    letter-spacing: .2rem;
+}
+
+header p {
+    padding: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+
+#b1 {
+    border: none;
+    background-color: #F6F6F6;
+    color: #23272A;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    border-radius: 2.8rem;
+
+    height: 6vh;
+
+    font-size: 1.2rem;
+}
+
+#b2 {
+    border: none;
+    background-color: #23272A;
+    color: #F6F6F6;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    border-radius: 2.8rem;
+
+    height: 6vh;
+
+    font-size: 1.2rem;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 4rem;
+
+    color: #23272A;
+}
+
+.sec1 img {
+    width: 45vw;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    
+    padding: 4rem;
+
+    color: #23272A;
+}
+
+.sec2 img {
+    width: 45vw;
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 4rem;
+
+    color: #23272A;
+}
+
+.sec3 img {
+    width: 45vw;
+}
+
+.sec4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    text-align: center;
+
+    padding: 4rem;
+
+    color: #23272A;
+}
+
+.sec4 img {
+    width: 45vw;
+}
+
+.sec4 h1 {
+    font-family: "Luckiest Guy", cursive;   
+    padding-bottom: 3rem;       
+}
+
+footer {
+    background-color: #23272A;
+    padding: 1.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:320px) and (max-width:450px) {
+    header {
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        background-size: cover;
+        background-position: center center;
+    
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+        text-align: start;
+        padding-bottom: .5rem;
+
+        align-self: flex-start;
+    }
+
+    header p {
+        font-size: .8rem;
+        text-align: start;
+
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    #b1 {
+        border: none;
+        background-color: #F6F6F6;
+        color: #23272A;
+    
+        border-radius: 2.8rem;
+    
+        height: 5vh;
+        width: 80vw;
+    
+        font-size: .6rem;
+
+        display: block;
+        margin: 1rem auto;
+    }
+
+    #b2 {
+        border: none;
+        background-color: #23272A;
+        color: #F6F6F6;
+    
+        border-radius: 2.8rem;
+    
+        height: 5vh;
+        width: 80vw;
+    
+        font-size: .6rem;
+
+        display: block;
+        margin: 1rem auto;
+    }
+    
+    
+    
+    .sec1 {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .sec1 h1 {
+        font-size: 2rem;
+    }
+
+    .sec1 p {
+        font-size: .9rem;
+    }
+
+    .sec1 img {
+        width: 80vw;
+    }
+
+    .sec2 {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .sec2 h1 {
+        font-size: 2rem;
+    }
+
+    .sec2 p {
+        font-size: .9rem;
+    }
+
+    .sec2 img {
+        width: 80vw;
+        padding-top: 2rem;
+    }
+
+    .sec3 {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .sec3 h1 {
+        font-size: 2rem;
+    }
+
+    .sec3 img {
+        width: 80vw;
+        padding-bottom: 2rem;
+    }
+
+    .sec3 p {
+        font-size: .9rem;
+    }
+
+    .sec4 {
+        text-align: start;
+        padding: 2rem;
+    }
+    
+    .sec4 h1 {
+        font-size: 2rem;
+    }
+
+    .sec4 img {
+        width: 80vw;
+    }
+
+    .sec4 p {
+        font-size: .9rem;
+    }
+
+    h1 {
+        padding-bottom: 3rem;
+    }
+
+    footer img{
+        height: 4vh;
+    }
+
+    
+
+}
+
